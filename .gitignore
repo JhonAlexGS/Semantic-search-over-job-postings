@@ -1,0 +1,26 @@
+# El dataset no se sube al repositorio: solo el código que lo usa.
+datos/
+!datos/.gitkeep
+!datos/procesado/.gitkeep
+
+.vscode
+
+# Embeddings calculados: se regeneran ejecutando el cuaderno.
+*.npy
+*.faiss
+
+# Entorno
+.venv/
+__pycache__/
+*.pyc
+
+# Caché de modelos de sentence-transformers
+.cache/
+models/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
