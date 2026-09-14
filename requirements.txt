@@ -1,0 +1,21 @@
+# Datos
+pandas==2.2.3
+numpy==2.1.3
+# pyarrow: para leer y escribir .parquet
+pyarrow==18.1.0
+
+# Búsqueda clásica (la línea base que hay que batir)
+rank-bm25==0.2.2
+
+# Búsqueda semántica.
+# Arrastra PyTorch: en Windows son del orden de 2 GB.
+# Alternativa ligera si el espacio es un problema: fastembed (ONNX, sin torch).
+sentence-transformers==3.3.1
+
+# Métricas y utilidades
+scikit-learn==1.5.2
+matplotlib==3.9.2
+
+# Cuadernos
+jupyterlab==4.3.4
+nbformat==5.10.4
